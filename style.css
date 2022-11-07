@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background: #686de0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  position: relative;
+  /* top: 15%; */
+  width: 50%;
+  background-color: rgb(236, 236, 236);
+}
+.card h1 {
+  font-size: 50px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+h3 {
+  font-size: 25px;
+}
+
+input[type="text"] {
+  font-weight: 700;
+  padding: 10px 0;
+  font-size: 28px;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 2px solid #202020;
+  color: #009432;
+}
+p {
+  font-weight: 700;
+  margin: 0;
+}
+#mybutton {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+#message1 {
+  font-weight: 800;
+}
+@media screen and (max-width: 1200px) {
+  h2 {
+    font-size: 25px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  #guess {
+    /* width: 100vw; */
+    /* margin: 0; */
+    /* padding: 0; */
+    /* width: 200px; */
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .card {
+    width: 100vw;
+  }
+  .card-body h2 {
+    font-size: 18px;
+  }
+  .card-body h3,
+  p {
+    font-size: 14px;
+  }
+  #guess {
+    font-size: 1rem;
+  }
+}
